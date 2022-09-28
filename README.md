@@ -14,7 +14,18 @@ From Zero Repository for doing Python DevOps work
     This is an example of how to use [colab] (https://github.com/Leon-dipac/python-for-devops-october-2022/blob/main/getting_started_with_python.ipynb)
     
     ### GitHub Codespaces 
-    ### Colab Notebook
+    
+    Build out python project scaffold :
+    
+    * Create a ' Makefile '
+    * create a ' requirements.txt '
+    * Create a ' test_library.py '
+    * python_library
+    * Dockerfile
+    * command-line-tools
+    * Microservices
+
+
     ### AWS CloudShell
     ### AWS Cloud9
 
