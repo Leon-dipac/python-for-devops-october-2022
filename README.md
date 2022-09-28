@@ -13,7 +13,7 @@ From Zero Repository for doing Python DevOps work
     
     This is an example of how to use [colab] (https://github.com/Leon-dipac/python-for-devops-october-2022/blob/main/getting_started_with_python.ipynb)
     
-    ### GitHub Codespaces 
+    ### GitHub Codespaces : This is a paid service under the GitHub Account.
     
     Build out python project scaffold :
     
@@ -26,8 +26,15 @@ From Zero Repository for doing Python DevOps work
     * Microservices
 
 
-    ### AWS CloudShell
-    ### AWS Cloud9
+    ### AWS CloudShell : It's an alternative cloud environment to GitHub Codespaces
+    
+    ### AWS Cloud9 : It's an alternative cloud environment to GitHub Codespaces. You can just set up your Cloud9 environment 
+    with a 't2.micro' with Amazon Linux AMI.
+    
+    Name of the environment : " python-devops-october-2022 "
+    Description of the environment : " This is for coding with Python. "
+    
+    Once your Cloud9 environment is created then run the following command :
 
 ## Command -Lines Tools
 
