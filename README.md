@@ -35,6 +35,22 @@ From Zero Repository for doing Python DevOps work
     Description of the environment : " This is for coding with Python. "
     
     Once your Cloud9 environment is created then run the following command :
+      -> Clone your repository using the 'SSH' Link :
+      $ git clone git@github.com:Leon-dipac/python-for-devops-october-2022.git
+      
+      NB: When you create a new environment, you will have 'Permission denied (publickey)' error when cloning a GitHub Repo.
+      
+      -> Generate a once off key by typing the command then press 'enter' 3 times : 
+      
+      $ ssh-keygen -t rsa
+      
+      -> Your generated public key will be saved in your EC2 instance :
+      
+      $ cat {public key EC2 instance location }
+      
+       For example : 
+       
+      $ cat /home/ec2-user/.ssh/id_rsa.pub
 
 ## Command -Lines Tools
 
