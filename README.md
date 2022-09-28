@@ -9,7 +9,10 @@ From Zero Repository for doing Python DevOps work
 
   * Create development environment that is cloud-based : 
   
-    ### Colab Notebook
+    ### Colab Notebook :
+    
+    This is an example of how to use [colab] (https://github.com/Leon-dipac/python-for-devops-october-2022/blob/main/getting_started_with_python.ipynb)
+    
     ### GitHub Codespaces 
     ### Colab Notebook
     ### AWS CloudShell
