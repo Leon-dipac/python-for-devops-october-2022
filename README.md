@@ -51,6 +51,28 @@ From Zero Repository for doing Python DevOps work
        For example : 
        
       $ cat /home/ec2-user/.ssh/id_rsa.pub
+      
+      Please follow the video at 42 minutes to get the GitHub steps :
+        Link : https://www.youtube.com/watch?v=kwZNpieUreA
+        
+      -> create a python virtual environment : 
+      $ python3 -m venv ~/.venv
+      $ vim ~/.bashrc
+      
+      In the insert mode add the following at the bottom :
+      
+      # Sourcing the virtual environment
+      source ~/.venv/bin/activate
+      
+      then press " :wq "
+      
+      -> Now open a new terminal and type the following commands to verify that no legacy library has been installed in your new environment :
+      
+      $ which python
+      $ pip freeze | wc -l
+
+
+
 
 ## Command -Lines Tools
 
